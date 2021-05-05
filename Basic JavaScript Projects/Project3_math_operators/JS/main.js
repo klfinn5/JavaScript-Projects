@@ -16,18 +16,18 @@ function addition_Function() {                                               //d
 }
 
 function subtraction_Function() {                                            //define function
-    var substraction = 3 - 4;                                                //define variable as subtraction
+    var subtraction = 3 - 4;                                                //define variable as subtraction
     document.getElementById("sub").innerHTML = "3 - 4 = " + subtraction;
 }
 
 function multiplication_Function() {                                         
     var multiplication = 5 * 5;                                              //define variable as multiplication
-    document.getElementById("times").innerHTML = "5 x 5 = " + simple_Math;
+    document.getElementById("times").innerHTML = "5 x 5 = " + multiplication;
 }
 
 function division_Function() {
     var division = 4 / 2;                                                     //define variable as division
-    document.getElementById("divide").innerHTML = "4 / 2 = " + simple_Math;
+    document.getElementById("divide").innerHTML = "4 / 2 = " + division;
 }
 
 function more_Math() {
@@ -36,8 +36,8 @@ function more_Math() {
 }
 
 function modulus_Operator() {
-    var simple_Math = 11 % 2;                                                 //define variable as remainder
-    document.getElementById("remain").innerHTML = "When you divid 11 by 2 you have a remainder of: " + simple_Math;
+    var simple_Math2 = 11 % 2;                                                 //define variable as remainder
+    document.getElementById("remain").innerHTML = "When you divid 11 by 2 you have a remainder of: " + simple_Math2;
 }
 
 function increase_Function() {                                                
