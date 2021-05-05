@@ -5,9 +5,9 @@ function math_Function() {                                                   //d
     division_Function();
     more_Math();
     modulus_Operator();
-    increase_Function():
+    increase_Function();
     decrease_Function();
-    document.getElementById("solve").innerHTML;                              //put value into HTML element
+    document.getElementById("solve").innerHTML = "";                              //put value into HTML element
 }
 
 function addition_Function() {                                               //define and name function
