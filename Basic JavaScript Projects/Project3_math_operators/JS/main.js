@@ -1,4 +1,5 @@
-function math_Function() {                                                   //define multi-function function
+function math_Function() { 
+    var solve;                                                  //define multi-function function
     addition_Function();
     subtraction_Function();
     multiplication_Function();
@@ -7,7 +8,7 @@ function math_Function() {                                                   //d
     modulus_Operator();
     increase_Function();
     decrease_Function();
-    document.getElementById("solve").innerHTML = "";                              //put value into HTML element
+    document.getElementById("solve");                              //put value into HTML element
 }
 
 function addition_Function() {                                               //define and name function
