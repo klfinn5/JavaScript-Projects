@@ -7,5 +7,5 @@ function my_dictionary() {
         seasoning: "salt, pepper, garlic",
         dessert: "chocolate lava cake"
     };
-    document.getElementById("dictionary").innerHTML = dinner;
+    document.getElementById("dictionary").innerHTML = dinner.dessert;
 }
