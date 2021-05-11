@@ -1,4 +1,4 @@
-function my_dictionary() {
+function my_dictionary() {                                                //define variable
     var dinner = {
         appetizer: "blooming onion",
         entree: "steak",
@@ -7,6 +7,6 @@ function my_dictionary() {
         seasoning: "salt, pepper, garlic",
         dessert: "chocolate lava cake"
     };
-    delete dinner.dessert;
-    document.getElementById("dictionary").innerHTML = dinner.dessert;
+    delete dinner.dessert;                                               // delete output
+    document.getElementById("dictionary").innerHTML = dinner.dessert;    // ouput
 }
