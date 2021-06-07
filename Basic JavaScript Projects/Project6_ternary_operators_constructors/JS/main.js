@@ -15,8 +15,8 @@ function toc() {                                                                
 
 function pet() {                                                                                                    //define first part of new operator function
     this.name = petname;                                                                                            //define variables using this operator
-    this.age = current age;
-    this.weight = current weight;
+    this.age = currentage;
+    this.weight = currentweight;
     this.type = breed; 
 }
 
