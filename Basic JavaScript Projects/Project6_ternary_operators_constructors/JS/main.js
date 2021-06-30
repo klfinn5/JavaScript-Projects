@@ -1,6 +1,6 @@
 function clients() {
     toc();
-    pet();
+    vetAppt();
     count_function();
 
 }
@@ -13,7 +13,7 @@ function toc() {                                                                
 }
 
 
-function pet() {                                                                                                    //define first part of new operator function
+function pet(petname, currentage, currentweight, breed) {                                                                                                    //define first part of new operator function
     this.name = petname;                                                                                            //define variables using this operator
     this.age = currentage;
     this.weight = currentweight;
@@ -22,7 +22,7 @@ function pet() {                                                                
 
 var vanessa = new pet("Bernard", "3 years", "42lbs", "corgi");                                                      //assign pet as operator
 function vetAppt() {                                                                                                //bring function and variable together
-    document.getElementById("keywords").innerHTML = "We have a" + pet.tpye + "named" + pet.name + "he is" + pet.age + "and" + pet.weight;
+    document.getElementById("keywords").innerHTML = "We have a " + pet.type + "named " + pet.name + "he is " + pet.age + "and " + pet.weight;
 } 
 
 

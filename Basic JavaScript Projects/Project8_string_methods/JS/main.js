@@ -5,3 +5,6 @@ function meow() {
     document.getElementById("conkittycat").innterHTML = sentence;
 }
 
+function slice_method() {
+    var 
+}
