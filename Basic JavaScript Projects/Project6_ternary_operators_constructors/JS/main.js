@@ -13,16 +13,16 @@ function toc() {                                                                
 }
 
 
-function pet(petname, currentage, currentweight, breed) {                                                                                                    //define first part of new operator function
-    this.name = petname;                                                                                            //define variables using this operator
-    this.age = currentage;
-    this.weight = currentweight;
+function pet(name, age, weight, breed) {                                                                                                    //define first part of new operator function
+    this.name = name;                                                                                            //define variables using this operator
+    this.age = age;
+    this.weight = weight;
     this.type = breed; 
 }
 
 var vanessa = new pet("Bernard", "3 years", "42lbs", "corgi");                                                      //assign pet as operator
 function vetAppt() {                                                                                                //bring function and variable together
-    document.getElementById("keywords").innerHTML = "We have a " + pet.type + "named " + pet.name + "he is " + pet.age + "and " + pet.weight;
+    document.getElementById("keywords").innerHTML = "We have a " + vanessa.type + " named " + vanessa.name + " he is " + vanessa.age + " and " + vanessa.weight + ".";           //define function with "vanessa" var not "pet"
 } 
 
 
