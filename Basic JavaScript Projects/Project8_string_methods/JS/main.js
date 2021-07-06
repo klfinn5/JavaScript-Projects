@@ -6,3 +6,6 @@ function meow() {                                                         // def
     document.getElementById("conkittycat").innterHTML = sentence;         // define html element
 }
 
+function slice_method() {
+    var 
+}
