@@ -21,11 +21,13 @@ function daysto() {
 var slideIndex = 1;
 showSlides(slideIndex);
 
+// next &prev controls
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
+//thumb image controls
 
 function currentSlide(n) {
   showSlides(slideIndex = n);
@@ -46,3 +48,4 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
