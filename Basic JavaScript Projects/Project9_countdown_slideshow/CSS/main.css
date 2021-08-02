@@ -14,6 +14,10 @@
   display: none;
 }
 
+p:first-of-type {
+
+}
+
 /* Next & previous buttons */
 
 .prev, .next {
