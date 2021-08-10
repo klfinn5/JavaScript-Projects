@@ -1,7 +1,7 @@
 function count() {
     var Digit = "";
     var X = 1;
-    while (X < 11) {
+    while (X < 101) {
         Digit += "<br>" + X;
         X++;
     }
