@@ -41,3 +41,15 @@ document.write(x);
     document.write("<br>" + x);
 }
 document.write("<br>" + x);
+
+document.write("\n");
+
+
+
+var x = 1738;
+document.write(x);
+{
+    var x = 666;
+    document.write("<br>" + x);
+}
+document.write("<br>" + x);
