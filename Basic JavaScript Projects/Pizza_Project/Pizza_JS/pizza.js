@@ -44,7 +44,7 @@ function getTopping(runningTotal, text1) {
             text1 = text1+toppingArray[j].value+"<br>";
         }
     }
-
+//topping values
     var toppingCount = selectedTopping.length;
     if (toppingCount > 1) {
         toppingTotal = (toppingCount - 1);
