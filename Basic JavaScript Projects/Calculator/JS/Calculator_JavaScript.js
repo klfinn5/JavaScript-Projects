@@ -37,8 +37,7 @@ function Input_Decimal(dot) {
 //operators
 function Handle_Operator(Next_Operator) {
     const { First_Operand, Display_Value, operator } = Calculator
-    //when op key prssed convert current number on screen 
-    //to a number and store results  in calFO if doesnt exist already
+    //when op key prssed convert current number on screen to a number and store results  in calFO if doesnt exist already
     const Value_of_Input = parseFloat(Display_Value);
     //checks if op exists and if waitSO is true, then updates op and exits func
     if (operator && Calculator.Wait_Second_Operand) {
@@ -49,12 +48,11 @@ function Handle_Operator(Next_Operator) {
         Calculator.First_Operand = Value_of_Input;
     } else if (operator) {//checks if op exists
         const Value_Now = First_Operand || 0;
-        //if op exists, property lookup is performed for op
-        //in Perform_Calc object and func that match op is executed
+        //if op exists, property lookup is performed for op in Perform_Calc object and func that match op is executed
         let result = Perform_Calculation[operator](Value_Now, Value_of_Input);
         //add fixed amount of numbers after decimal
         result = Number(result).toFixed(9)
-        //remove trailins 0s
+        //remove trailing 0s
         result = (result*1).toString()
         Calculator.Display_Value = parseFloat(result);
         Calculator.First_Operand = parseFloat(result);
@@ -71,6 +69,8 @@ const Perform_Calculation = {
     '-': (First_Operand, Second_Operand) => First_Operand - Second_Operand,
     '=': (First_Operand, Second_Operand) => Second_Operand
 };
+
+
 
 function Calculator_Reset() {
     Calculator.Display_Value = '0';
