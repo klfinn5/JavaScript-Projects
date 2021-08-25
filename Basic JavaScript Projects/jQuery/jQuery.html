@@ -2,13 +2,17 @@
 <html>
 
     <head>
+        <!--google reference --> 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     </head>
 
     <body>
     <script>
+        <!--jq=$, when document is ready do this function-->
         $(document).ready(function() {
+            <!-- $ = to target = html tag-->
             $("html").append(
+                <!--continuous string, single quote bc double quote would end-->
                 "<body>\
                     <div id='container'>\
                         <div id='inner'>\
@@ -18,6 +22,7 @@
                             <p id='3'>Paragraph 3</p>\
 
             );
+            <!--affect css-->
             $("#2").css({"color":"red"});
             $("#2").click(function() {
                 $('h1').hide();
